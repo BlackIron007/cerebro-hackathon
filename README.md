@@ -1,4 +1,4 @@
-# 🧠 CEREBRO: The Autonomous AI Analyst
+#  CEREBRO: The Autonomous AI Analyst
 
 [![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.35-red?style=for-the-badge&logo=streamlit)](https://streamlit.io)
@@ -11,8 +11,47 @@ CEREBRO is a groundbreaking autonomous AI agent that ingests, understands, creat
 
 ##  Demo Video & Live Application
 
-*   **Watch my 3-minute demo video:** [Your Demo Video Link Here]
+*   **Watch my 3-minute demo video:** [https://drive.google.com/file/d/1jIiXXanPdzQJmgmZW_puYzJVydh5lKQB/view?usp=sharing]
 *   **Interact with the live application:** [https://cerebro-hackathon-ktjhtmf7ak5ihnb9kbhu7m.streamlit.app/]
+
+---
+
+###  A Note on the Demo Video Submission
+
+Due to a technical issue with my recording setup discovered only after the final submission, the voiceover track for my demo video was not included in the final render.
+
+To provide the full context and intended narration for our demonstration, I have included the complete voiceover script below. I kindly request that you read along with the script while watching the video to fully experience the CEREBRO demonstration as intended. I appreciate your understanding.
+
+---
+
+### **Voiceover Script**
+
+> **The Problem & The Introduction**
+> 
+> "The single greatest bottleneck in software development isn't writing new code. It's understanding what's already there. Developers spend up to seventy percent of their time navigating complex, undocumented codebases. This comprehension tax costs the industry billions in lost productivity. To solve this, we built CEREBRO: an autonomous AI analyst, powered by IBM Granite, designed to make any codebase instantly understandable."
+> 
+> ---
+> 
+> **The Demo Part 1: Trustworthy Analysis**
+> 
+> "First, let's see CEREBRO's analysis capability. It has already ingested and analyzed the entire Python 'requests' library. I'll ask it a specific, practical question about a core concept -  the Session object."
+> 
+> "As you can see, it instantly provides a correct summary. This is perfect for quick triage when a developer needs a fast definition without context-switching. This isn't generic knowledge; it's grounded, context-aware analysis."
+> 
+> ---
+> 
+> **The Demo Part 2: The "Wow Moment" - Creation & Self-Healing**
+> 
+> "But CEREBRO's true power is not just in analysis, but in its ability to create and autonomously debug new code. I'll now give it a task that's specifically designed to fail, to showcase its self-healing loop. I already have it on my clipboard to save time - Write a function named safe_divide that takes two numbers, a and b, and returns a / b."
+> 
+> "CEREBRO is now engaging its multi-step autonomous workflow. What you're seeing is the end of a complex process. In its first attempt, CEREBRO generated a simple but flawed function. Its own autonomous QA agent then wrote a unit test that correctly failed with a ZeroDivisionError. CEREBRO then analyzed that failure, and without any human intervention, rewrote the code to create this final, robust version that handles the edge case correctly. It then re-ran the tests and confirmed VALIDATION PASSED. CEREBRO has autonomously healed its own code!"
+> 
+> ---
+> 
+> **The Technical Core & Conclusion**
+> 
+> "This entire process was accomplished using a team of specialized IBM Granite models on watsonx.ai: a retrieval model to build the knowledge base, an instruction model for analysis and QA, and a dedicated code model for generation and debugging. CEREBRO represents a new paradigm for developer tools. By automating the cycles of understanding, creation, and debugging, it has the potential to fundamentally accelerate software innovation. Thank you."
+
 
 ## The Problem: The Codebase Comprehension Bottleneck
 
