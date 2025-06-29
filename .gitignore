@@ -1,0 +1,9 @@
+# Virtual Environment
+venv/
+__pycache__/
+
+# Secrets
+.env
+
+# Database folder
+db/
